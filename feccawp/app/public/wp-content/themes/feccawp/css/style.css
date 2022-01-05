@@ -1,0 +1,647 @@
+.bg-head-blue {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: #44A0FF;
+}
+
+
+
+.container {
+    max-width: 1440px;
+    padding: 0 0 0 0;
+}
+
+.nav {
+    align-items: center;
+    flex-wrap: nowrap;
+
+}
+
+.nav-link,
+.btn {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.btn {
+    padding: 12px 24px;
+}
+
+.nav-item:first-child {
+    margin-left: 0;
+}
+
+.btn-outline-secondary {
+    border-color: #fff;
+}
+
+.dropdown {
+    display: none;
+}
+
+.dropdown2 {
+    display: none;
+    left: 50px;
+    top: 25px;
+}
+
+.open {
+    display: block;
+}
+
+.nav-menu-icon {
+    position: absolute;
+    top: 17px;
+    right: 0px;
+}
+
+.nav li {
+    position: relative;
+}
+
+.dropdown, .dropdown2 {
+    position: absolute;
+}
+
+.btn-outline-secondary:hover {
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.fw-ligh {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+
+.header-text {
+    margin-left: 30px;
+    color: #fff;
+    opacity: 0.7;
+    font-size: 16px;
+    padding-top: 8px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.margin-header {
+    padding-top: 30px;
+    margin-bottom: 110px;
+}
+
+.margin-bot {
+    margin-bottom: 40px;
+}
+
+.nav-pills {
+    justify-content: flex-end;
+}
+
+.img-fluid {
+    width: 100%;
+    height: 484px;
+}
+
+.bg {
+    background-image: url("../img/Oval.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.margin-bottom {
+    margin-bottom: 80px;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 0 0 0;
+}
+
+
+/*Features*/
+
+.card-h2 {
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #14171D;
+    margin-bottom: 12px;
+}
+
+.card-text {
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #606267;
+}
+
+.card-image {
+    margin-bottom: 16px;
+}
+
+.lead {
+    font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    color: #606267;
+}
+
+.jumbotron-heading {
+    color: #14171D;
+    max-width: 480px;
+}
+
+.jumbotron-link {
+    font-size: 1rem;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 500;
+    color: #44A0FF;
+    text-decoration: none;
+    position: relative;
+}
+
+.jumbotron {
+    margin-bottom: 90px;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.arrow-svg-img {
+    position: absolute;
+    top: 6px;
+    right: -16px;
+}
+
+.arrow-svg:hover {
+    color: #0a58ca;
+}
+
+.h1-style {
+    font-weight: 500;
+    font-size: 48px;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+.h2-style {
+    font-size: 2.5rem;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 500;
+    margin: 0;
+}
+
+.features-wrap {
+    align-items: center;
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.list-h4 {
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #14171D;
+    margin-bottom: 12px;
+}
+
+.list-desc {
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #606267;
+    margin: 0;
+}
+
+.features-list-item {
+    margin-bottom: 42px;
+    padding: 24px;
+}
+
+.features-list-item:last-child {
+    margin-bottom: 0;
+}
+
+.features-list-item:hover {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+
+.pricing-header {
+    margin-bottom: 50px;
+}
+
+.mb-625 {
+    margin-bottom: 6.25rem;
+}
+
+.uppercase-text {
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+
+.portf-text {
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    color: #14171D;
+    margin-bottom: 140px;
+    padding: 0 21px 0 0px;
+}
+
+.name {
+    font-family: "Red Hat Display", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 4px;
+    color: #FFFFFF;
+
+}
+
+.portf-desc-name {
+    font-family: "Red Hat Display", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 4px;
+    color: #14171D;
+}
+
+.portfolio-desc {
+    position: absolute;
+    padding: 0 0 0 32px;
+    bottom: 0px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, #000000 180%);
+}
+
+.name-desc {
+    color: #fff;
+    opacity: 0.7;
+}
+
+.galochka {
+    position: absolute;
+    top: 0;
+    right: 32px;
+}
+
+.ul-null {
+    margin: 0;
+}
+
+.pad-middle {
+    padding-top: 32px;
+}
+
+.pad-middle:hover {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+
+.quote-testi {
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #14171D;
+}
+
+.q-text-com {
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #606267;
+}
+
+.quote-name {
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #14171D;
+}
+
+.accordion-button-img {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    background-image: url("../img/down.svg");
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+}
+
+.accordion-button-my {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: color .15s
+}
+
+/*.accordion-button-img:not(.collapsed) {
+    background-image: url("../img/down.svg");
+    transform: rotate(-180deg);
+}*/
+
+.accordion-title {
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #14171D;
+
+}
+
+.accordion-item-my {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+
+}
+
+.accordion-body-my {
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #606267;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #14171D;
+    outline: 0;
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #14171D;
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.features-my-justy {
+    justify-content: center;
+}
+
+
+
+
+
+
+
+.list-body-testimonial {
+    background-image: url(../img/Topography.jpg);
+    background-size: cover;
+    color: white;
+}
+/* Стили карточек*/
+
+
+
+.card {
+    text-align: center;
+    color: #FFFFFF;
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+  }
+
+  .card {
+    border: none;
+    border-radius: none; 
+}
+  .flipper {
+    margin-bottom: 10px;
+    perspective: 1000px;
+  }
+  /* flip the pane when hovered */
+  .flipper.flip .card {
+    transform: rotateY(180deg);
+  }
+  .front,
+  .back {
+    width: 100%;
+    backface-visibility: hidden;
+  }
+  /* front pane, placed above back */
+  .front {
+    /* for firefox 31 */
+    transform: rotateY(0deg);
+  }
+  /* back, initially hidden pane */
+  .back {
+    transform: rotateY(180deg);
+  }
+  .goback {
+    position: absolute;
+    bottom: 33px;
+    padding-left: 20px;
+    left: 0px;
+    text-align: left;
+  }
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 0px!important;
+    left: 0;
+    width: 100%;
+}
+
+.card-body-no-padding {
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 377px) {
+    .nav-item {
+        margin-left: 0;
+    }
+
+    .nav-pills {
+        justify-content: space-around;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .col-lg-6 {
+        width: 55%;
+    }
+}
+
+@media (max-width: 990px) {
+    .nav-pills {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-pills {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+
+    .nav-item {
+        margin-left: 0;
+    }
+
+    .pad-middle {
+        padding-top: 0;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+
+    .jumbotron-header-co {
+        margin-bottom: 20px;
+    }
+
+    .features-my-justy {
+        text-align: center;
+    }
+
+    .text-left,
+    .text-right {
+        text-align: center !important;
+    }
+
+    .justify-content-between .jumbotron-header-co .h2-style {
+        margin: 0 auto;
+    }
+
+    .iphone {
+        width: 50%;
+    }
+}
+
+@media (max-width: 700px) {
+    .my-flipper-adaptive {
+        flex: 0 0 auto;
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 550px) {
+    .my-flipper-adaptive {
+        flex: 0 0 auto;
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 492px) {
+    .my-flipper-adaptive {
+        flex: 0 0 auto;
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .nav-pills {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+
+    .nav-item {
+        margin-left: 0;
+    }
+
+    .bg {
+        background-repeat: no-repeat;
+        background-size: 150%;
+        background-position: 50%;
+    }
+
+    .portf-text {
+        font-size: 19px;
+    }
+
+    .lead {
+        font-size: 0.8rem;
+    }
+
+    .jumbotron-link {
+        font-size: 0.9rem;
+    }
+
+    .portf-desc-name {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 400px) {
+    .iphone {
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 350px) {
+    .my-flipper-adaptive {
+        flex: 0 0 auto;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+#image {
+    -moz-transition: transform 1s;
+    -webkit-transition: transform 1s;
+    transition: transform 1s;
+  }
+
+.rotate {
+    transform: rotate(-180deg);
+}
+
+.sub-menu {
+    list-style: none;
+}
