@@ -265,7 +265,7 @@ get_header();
         <div class="container">
 
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 testi-margin-b">
 
 
                 <?php
@@ -294,7 +294,7 @@ get_header();
                     
                     
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 testi-margin-b">
 
                     <?php
                         $featured_post = get_field('user_review2');

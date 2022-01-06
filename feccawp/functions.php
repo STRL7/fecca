@@ -235,7 +235,7 @@ function my_nav_menu( $args ) {
             elseif ($depth == 0 && $args->walker->has_children) {           // если глубина 0 и есть дочерние элементы, контейнеру добавляется класс main_drop
                 $drop = ' nav-item ';
                 $url_icon .= get_template_directory_uri() . '/img/nav-arrow.svg">';     // определение локального урл стрелки главного меню
-                $arrow .= '<img class="nav-menu-icon" src="' . $url_icon;                        // формирование блока картинки стрелки
+                $arrow .= '<img class="nav-menu-icon svg" src="' . $url_icon;                        // формирование блока картинки стрелки
             }
            $attributes .= ! empty( $item->url ) ? ' href="' . esc_attr($item->url) . '"' : '';  // добавление ссылки, заданной из админки(если есть), в пункт меню
            $item_output .= '<a' . $attributes . 'class="' . $nav_link . '">' . $item->title . '</a>';                    // фориирование блока ссылки     

@@ -23,6 +23,12 @@
     font-family: 'Red Hat Display', sans-serif;
 }
 
+.btn-link-style {
+	color: #fff;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
 .btn {
     padding: 12px 24px;
 }
@@ -41,8 +47,12 @@
 
 .dropdown2 {
     display: none;
-    left: 50px;
-    top: 25px;
+    left: 75px;
+    top: 16px;
+}
+
+.dropdown, .dropdown2 {
+    box-shadow: 4px 4px 8px 0px rgb(34 60 80 / 20%);
 }
 
 .open {
@@ -53,6 +63,12 @@
     position: absolute;
     top: 17px;
     right: 0px;
+}
+
+
+.nav-item:hover, .nav-item:hover path{
+    color: #0a58ca;
+    fill: #0a58ca;
 }
 
 .nav li {
@@ -196,6 +212,8 @@
 .features-wrap {
     align-items: center;
     text-align: center;
+    margin-right: 10px!important;
+    margin-left: 10px!important;
 }
 
 .text-right {
@@ -234,6 +252,10 @@
 .features-list-item:hover {
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
     border-radius: 5px;
+}
+
+.features-list-item:hover .list-h4 {
+    color: #44A0FF;
 }
 
 .pricing-header {
@@ -485,6 +507,14 @@
     padding: 0;
 }
 
+.logo-container {
+    justify-content: center;
+}
+
+.dropdown, .dropdown2 {
+    background-color: #ECF5FF;
+}
+
 
 
 
@@ -557,6 +587,29 @@
     .iphone {
         width: 50%;
     }
+
+    .h2-style {
+        font-size: 1.8rem;
+    }
+
+    .testi-margin-b {
+        margin-bottom: 30px;
+    }
+
+    .nav-list-container {
+        justify-content: center!important;
+    }
+    .nav-item-b {
+         width: 100%;
+      justify-content: center!important;
+    }
+
+    .dropdown {
+        top: 13px;
+        right: -14px;
+        z-index: 1;
+    }
+
 }
 
 @media (max-width: 700px) {
@@ -565,6 +618,19 @@
         width: 60%;
         margin: 0 auto;
     }
+  	.nav-list-container {
+  		justify-content: center!important;
+  	}
+  	.nav-item-b {
+  		 width: 100%;
+    	justify-content: center!important;
+  	}
+  
+  	.dropdown {
+        top: 13px;
+        right: -14px;
+        z-index: 1;
+  	}
 }
 
 @media (max-width: 550px) {
@@ -645,3 +711,8 @@
 .sub-menu {
     list-style: none;
 }
+
+
+
+
+

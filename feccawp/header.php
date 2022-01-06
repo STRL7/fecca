@@ -43,8 +43,8 @@
                             my_nav_menu( [ 'theme_location'  => '' ] );
                             ?>
                             <!--<li class="nav-item btn btn-outline-secondary btn-lg px-4"><a href="#" class="nav-link">Get Started</a>-->
-                            <div class="nav-item col-3 d-flex justify-content-end align-items-center">
-                                <button type="button" class="btn btn-outline-secondary btn-lg px-4"><?php the_field("button_header"); ?></button></li>
+                            <div class="nav-item nav-item-b col-3 d-flex justify-content-end align-items-center">
+                                <button type="button" class="btn btn-outline-secondary btn-lg px-4"><a href="#" class="text-decoration-none btn-link-style"><?php the_field("button_header"); ?></a></button>
                             </div>
                     </div>
                 </div>
@@ -52,8 +52,8 @@
                     <h1 class="fw-ligh h1-style"><?php the_field("general_title"); ?></h1>
                 </div>
                 <div class="col-lg-6 col-md-8 mx-auto text-center margin-bottom">
-                    <a href="/" class="text-dark text-decoration-none"><img src="<?php the_field("appstore"); ?>" alt="AppStore"></a>
-                    <a href="/" class="text-dark text-decoration-none"><img src="<?php the_field("googleplay"); ?>"
+                    <a href="<?php the_field("header_link_button_appstore"); ?>" class="text-dark text-decoration-none"><img src="<?php the_field("appstore"); ?>" alt="AppStore"></a>
+                    <a href="<?php the_field("header_link_button_google"); ?>" class="text-dark text-decoration-none"><img src="<?php the_field("googleplay"); ?>"
                             alt="GooglePlay"></a>
                 </div>
                 <div class="mx-auto text-center bg" style="background-image: url(<?php the_field("header_tel_bg"); ?>);">
