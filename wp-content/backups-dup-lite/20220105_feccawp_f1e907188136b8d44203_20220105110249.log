@@ -1,0 +1,86 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: January 5, 2022 11:03 am
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.4.3
+WORDPRESS:	5.8.2
+PHP INFO:	7.3.5 | SAPI: cgi-fcgi
+SERVER:		nginx/1.16.0 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (256M default) 
+MEMORY STACK: 2MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Not Supported
+TABLES: total:13 | filtered:0 | create:13
+FILTERED: []
+SQL CREATED: 20220105_feccawp_f1e907188136b8d44203_20220105110249_database.sql
+SQL FILE SIZE: 929.96KB (952284)
+SQL FILE TIME: 2022-01-05 11:03:34
+SQL RUNTIME: 4.00 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  C:/Users/SICOM/Local Sites/feccawp/app/public
+ARCHIVE FILE: 20220105_feccawp_f1e907188136b8d44203_20220105110249_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	64.32MB
+STATS:	Dirs 438 | Files 3,351
+SQL ADDED: 20220105_feccawp_f1e907188136b8d44203_20220105110249_database.sql
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 3789
+    [filename] => C:\Users\SICOM\Local Sites\feccawp\app\public\wp-content\backups-dup-lite\tmp\20220105_feccawp_f1e907188136b8d44203_20220105110249_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 3788
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 20.99MB
+ARCHIVE RUNTIME: 70.29 sec.
+MEMORY STACK: 4MB
+building installer
+add_extra_files1
+add_extra_files2
+add_extra_files3
+add_extra_files4
+Doing archive file check
+add_extra_files5
+add_extra_files6
+add_extra_files8
+Successfully opened zip C:/Users/SICOM/Local Sites/feccawp/app/public/wp-content/backups-dup-lite/tmp/20220105_feccawp_f1e907188136b8d44203_20220105110249_archive.zip
+Adding enhanced installer files to archive using ZipArchive
+Installer files added to archive
+Added to archive
+After ziparchive close when adding installer
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 929.96KB
+INSTALLER FILE: 64.26KB
+ARCHIVE FILE: 21.97MB 
+EXPECTED FILE/DIRECTORY COUNT: 3,789
+ACTUAL FILE/DIRECTORY COUNT: 3,788
+ARCHIVE CONSISTENCY TEST: Pass
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 77.46 sec.
+PEAK PHP MEMORY USED: 4MB
+DONE PROCESSING => 20220105_feccawp January 5, 2022 11:04 am
+
